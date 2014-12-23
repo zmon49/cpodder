@@ -7,7 +7,7 @@ int main(void)
 {
     curl_global_init(CURL_GLOBAL_ALL);
     std::ofstream ofs("output.html");
-    if(CURLE_OK == curl_read("http://google.com", std::cout, 30))
+    if(CURLE_OK == curl_read("http://google.com", ofs, 30))
 	{
 		std::cout<< "success";
 	}

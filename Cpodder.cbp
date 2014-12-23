@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -31,12 +33,19 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="curl/include" />
+			<Add directory="libxslt/include" />
 		</Compiler>
+		<Linker>
+			<Add library="curl\lib\libcurl.lib" />
+			<Add library="libxslt\lib\libxslt.lib" />
+			<Add directory="curl/dlls" />
+		</Linker>
+		<Unit filename="Functions.cpp" />
+		<Unit filename="Functions.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
-			<code_completion>
-				<search_path add="C:\Users\Zach\Documents\Cpodder\curl\include" />
-			</code_completion>
+			<code_completion />
 			<envvars />
 			<debugger />
 		</Extensions>
