@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1419369867 source:c:\users\zach\documents\cpodder\main.cpp
+	<iostream>
+	"Functions.h"
+
+1415116276 c:\users\zach\documents\cpodder\curl\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1415183162 c:\users\zach\documents\cpodder\curl\include\curl\curlver.h
+
+1415183162 c:\users\zach\documents\cpodder\curl\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1415116276 c:\users\zach\documents\cpodder\curl\include\curl\curlrules.h
+
+1402519950 c:\users\zach\documents\cpodder\curl\include\curl\easy.h
+
+1415116276 c:\users\zach\documents\cpodder\curl\include\curl\multi.h
+	"curl.h"
+
+1415116276 c:\users\zach\documents\cpodder\curl\include\curl\typecheck-gcc.h
+
+1419370323 source:c:\users\zach\documents\cpodder\functions.cpp
+	"Functions.h"
+
+1419370234 c:\users\zach\documents\cpodder\functions.h
+	<Iostream>
+	<stdio.h>
+	<curl/curl.h>
+	<fstream>
+	<sstream>
+
